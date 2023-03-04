@@ -18,5 +18,5 @@ print ('\nContent1 (this is a podcast, so only the headline was retrieved):\n\n'
 
 print('\nTitle2:\n\n', soup2.title.text)
 txt=soup2.body.text
-txt1=txt.split()[80:-94]
+txt1=txt.split()[125:-94]
 print ("\nContent2:\n\n", " ".join(txt1))
